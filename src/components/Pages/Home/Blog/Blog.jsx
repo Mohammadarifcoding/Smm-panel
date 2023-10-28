@@ -31,7 +31,7 @@ const Blog = () => {
             Read Our Blog
           </h2>
           <Link to={'/blog'}>
-          <button className="border-2 border-[#00FFA3] px-5 min-h-[60px]  hover:border-[#00FFA3] text-bold text-xl hover:bg-[#1bcf8d] bg-[#00FFA3] text-black mt-4  font-bold ">
+          <button className="border-2 rounded-xl border-[#00FFA3] px-5 min-h-[60px]  hover:border-[#00FFA3] text-bold text-xl hover:bg-[#1bcf8d] bg-[#00FFA3] text-black mt-4  font-bold ">
             View All Post
           </button>
           </Link>

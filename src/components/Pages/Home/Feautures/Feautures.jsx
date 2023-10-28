@@ -48,12 +48,12 @@ const Feautures = () => {
     };
   }, []);
   return (
-    <div className="bg-gradient-to-r pt-32 from-[#173f32]  text-black to-[#161429] lg:px-[5%] md:px-[5%] px-[2%]">
+    <div className="bg-gradient-to-r pt-32 pb-32 from-[#173f32]  text-black to-[#161429] lg:px-[5%] md:px-[5%] px-[2%]">
       <h1 className="lg:text-5xl  text-4xl text-center font-bold text-white mb-10">
         Our Features You Can Get
       </h1>
       <Slider {...settings}>
-        <div className="card card-compact mx-auto max-w-[350px] min-h-[390px] shadow-xl bg-white text-center">
+        <div className="card card-compact mx-auto lg:max-w-[90%] md:max-w-[90%] max-w-[100%] min-h-[390px] shadow-xl  bg-white text-center">
           <figure className="p-8">
             <img className="w-[100px] h-[100px]"
               src="https://cdn.mypanel.link/770smr/jl3w0wtng4wg2cof.webp"
@@ -72,7 +72,7 @@ const Feautures = () => {
             
           </div>
         </div>
-        <div className="card card-compact mx-auto max-w-[350px] min-h-[390px]  shadow-xl bg-white">
+        <div className="card card-compact mx-auto lg:max-w-[90%] md:max-w-[90%] max-w-[100%] min-h-[390px]  shadow-x l bg-white">
           <figure className="p-8">
             <img className="w-[100px] h-[100px]"
               src="https://cdn.mypanel.link/770smr/h8yksdqlxdcxqsgt.webp"
@@ -91,7 +91,7 @@ const Feautures = () => {
             
           </div>
         </div>
-        <div className="card card-compact mx-auto max-w-[350px] min-h-[390px]  shadow-xl bg-white">
+        <div className="card card-compact mx-auto lg:max-w-[90%] md:max-w-[90%] max-w-[100%] min-h-[390px]  shadow-x l bg-white">
           <figure className="p-8">
             <img className="w-[100px] h-[100px]"
               src="https://cdn.mypanel.link/770smr/4iqos4bhls84lsjg.webp"
@@ -110,7 +110,7 @@ const Feautures = () => {
             
           </div>
         </div>
-        <div className="card card-compact mx-auto max-w-[350px] min-h-[390px]  shadow-xl bg-white">
+        <div className="card card-compact mx-auto lg:max-w-[90%] md:max-w-[90%] max-w-[100%] min-h-[390px]  shadow-x l bg-white">
           <figure className="p-8">
             <img className="w-[100px] h-[100px]"
               src="https://cdn.mypanel.link/770smr/jl3w0wtng4wg2cof.webp"
@@ -129,7 +129,7 @@ const Feautures = () => {
             
           </div>
         </div>
-        <div className="card card-compact mx-auto max-w-[350px] min-h-[390px]  shadow-xl bg-white">
+        <div className="card card-compact mx-auto lg:max-w-[90%] md:max-w-[90%] max-w-[100%] min-h-[390px]  shadow-x l bg-white">
           <figure className="p-8">
             <img className="w-[100px] h-[100px]"
               src="https://cdn.mypanel.link/770smr/h8yksdqlxdcxqsgt.webp"
@@ -148,7 +148,7 @@ const Feautures = () => {
             
           </div>
         </div>
-        <div className="card card-compact mx-auto max-w-[350px] min-h-[390px]  shadow-xl bg-white">
+        <div className="card card-compact mx-auto lg:max-w-[90%] md:max-w-[90%] max-w-[100%] min-h-[390px]  shadow-x l bg-white">
           <figure className="p-8">
             <img className="w-[100px] h-[100px]"
               src="https://cdn.mypanel.link/770smr/4iqos4bhls84lsjg.webp"
@@ -159,7 +159,7 @@ const Feautures = () => {
             <h2 className="card-title text-3xl  text-center mx-auto font-bold text-gray-900">
               24/7 Support Services
             </h2>
-            <p className="text-gray-700 text-lg min-h-[150px] text-center">
+            <p className="text-black text-lg min-h-[150px] text-center">
               Smm Panel offers 100% real SMM activities and for this purpose
               our social media team drives millions of visitors to our clients
               posts or accounts

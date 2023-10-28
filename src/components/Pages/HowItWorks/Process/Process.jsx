@@ -20,7 +20,7 @@ const Process = () => {
               </p>
             </div>
             <img
-              src="https://res.cloudinary.com/grow-follows/image/upload/v1656955639/growfollows_home/signup_qxrolt.png"
+              src="https://i.ibb.co/DMSR7Cv/signup-qxrolt.png"
               alt="Image 1"
             />
           </div>
@@ -51,7 +51,7 @@ const Process = () => {
               </p>
             </div>
             <img
-              src="https://res.cloudinary.com/grow-follows/image/upload/v1656955639/growfollows_home/addfunds_lain7u.png"
+              src="https://i.ibb.co/2Y7wD4P/addfunds-lain7u.png"
               alt="Image 1"
             />
           </div>
@@ -82,7 +82,7 @@ const Process = () => {
                 </p>
               </div>
               <img
-                src="https://i.ibb.co/cTcDh3j/step-3-kwagjs.png"
+                src="https://i.ibb.co/Tvj9YTj/step-3-kwagjs.png"
                 alt="Image 1"
               />
             </div>

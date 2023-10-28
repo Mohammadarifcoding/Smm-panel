@@ -25,7 +25,7 @@ const OurBlog = () => {
           <div className="max-w-[400px]">
             <img
               className="w-full"
-              src="https://i.imgur.com/vu6wqwt.png"
+              src="https://i.ibb.co/hWVvg71/vu6wqwt.png"
               alt=""
             />
           </div>

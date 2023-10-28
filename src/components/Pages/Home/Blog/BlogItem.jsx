@@ -20,7 +20,7 @@ const BlogItem = ({data}) => {
         {description}
         </p>
         <div>
-        <button className="border-2 border-[#00FFA3] px-5 h-[60px]  hover:border-[#00FFA3] text-bold text-xl hover:bg-[#1bcf8d] bg-[#00FFA3] text-black mt-4  font-bold ">
+        <button className="border-2 border-[#00FFA3] px-5 h-[60px] rounded-xl hover:border-[#00FFA3] text-bold text-xl hover:bg-[#1bcf8d] bg-[#00FFA3] text-black mt-4  font-bold ">
           Learn More
         </button>
         </div>

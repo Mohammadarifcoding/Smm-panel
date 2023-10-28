@@ -19,7 +19,7 @@ const OurServices = () => {
               activities that stay forever. Our social media services are very
               fast & up to date
             </p>
-            <button className="border-2 border-[#00FFA3] px-5 py-3 bg-transparent hover:border-[#00FFA3] text-bold text-xl hover:bg-[#00FFA3] hover:text-black mt-4 focus:outline-8 focus:outline-gray-700 font-bold ">
+            <button className="border-2 border-[#00FFA3] px-5 py-3 rounded-xl bg-transparent hover:border-[#00FFA3] text-bold text-xl hover:bg-[#00FFA3] hover:text-black mt-4 focus:outline-8 focus:outline-gray-700 font-bold ">
               Signup Now
             </button>
           </div>
@@ -45,7 +45,7 @@ const OurServices = () => {
                 </p>
               </div>
               <div className="flex justify-between  px-[20px] w-full ">
-                <button className="border-2 border-[#00FFA3] px-5 h-[60px]  hover:border-[#00FFA3] text-bold text-xl hover:bg-[#1bcf8d] bg-[#00FFA3] hover:text-black mt-4  font-bold ">
+                <button className="border-2 border-[#00FFA3] px-5 h-[60px] rounded-xl  hover:border-[#00FFA3] text-bold text-xl hover:bg-[#1bcf8d] bg-[#00FFA3] hover:text-black mt-4  font-bold ">
                   Signup Now
                 </button>
                 <img
@@ -66,7 +66,7 @@ const OurServices = () => {
                 </p>
               </div>
               <div className="flex justify-between  px-[20px] w-full ">
-                <button className="border-2 border-[#00FFA3] px-5 py-3 h-[60px] bg-transparent hover:border-[#00FFA3] text-bold text-xl hover:bg-[#00FFA3] hover:text-black mt-4 focus:outline-8 focus:outline-gray-700 font-bold ">
+                <button className="border-2 border-[#00FFA3] px-5 py-3 rounded-xl h-[60px] bg-transparent hover:border-[#00FFA3] text-bold text-xl hover:bg-[#00FFA3] hover:text-black mt-4 focus:outline-8 focus:outline-gray-700 font-bold ">
                   Signup Now
                 </button>
                 <img
@@ -87,7 +87,7 @@ const OurServices = () => {
                 based on quality services. We offer affordable SMM Panel
                 services with 24/7 support.
               </p>
-              <button className="border-2 border-[#00FFA3] px-5 h-[60px]  hover:border-[#00FFA3] text-bold text-xl hover:bg-[#1bcf8d] bg-[#00FFA3] text-black mt-4  font-bold ">
+              <button className="border-2 border-[#00FFA3] px-5 h-[60px] rounded-xl hover:border-[#00FFA3] text-bold text-xl hover:bg-[#1bcf8d] bg-[#00FFA3] text-black mt-4  font-bold ">
                 Signup Now
               </button>
             </div>

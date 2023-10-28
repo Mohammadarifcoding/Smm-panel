@@ -53,9 +53,10 @@ const AccordienSection = () => {
     },
   ];
   return (
-    <div className="bg-gradient-to-r pt-32 from-[#173f32]   to-[#161429] ">
-      <div className=" bg-fixed bg-[url('https://cdn.mypanel.link/770smr/ftx3z1904qe3yabc.webp')] bg-cover bg-center  w-full  min-h-screen">
-        <div className=" backdrop-brightness-50 flex items-center gap-4 lg:px-[5%] md:px-[5%] px-[2%] lg:flex-row flex-col justify-between  max-w-[1400px] mx-auto">
+     
+      <div className=" bg-fixed  text-white bg-[url('https://cdn.mypanel.link/770smr/ftx3z1904qe3yabc.webp')] bg-cover bg-center  w-full  min-h-screen">
+        <div className="backdrop-brightness-50 w-full h-full min-h-screen">
+        <div className=" flex items-center gap-4 lg:px-[5%] md:px-[5%] px-[2%] lg:flex-row flex-col justify-between  max-w-[1400px] mx-auto">
           <div className="flex flex-col lg:w-[50%]  w-full lg:justify-start justify-center items-center">
             <p className=" text-5xl font-bold mt-3 leading-[60px] lg:text-start text-center">
               Frequently Asked Questions
@@ -70,7 +71,7 @@ const AccordienSection = () => {
               SMM Panel. After viewing the FAQ, it will be easy for you to place
               an order with us.
             </p>
-            <button className="border-2 max-w-[200px] border-[#00FFA3] px-5 min-h-[60px] lg:mr-auto relative  hover:border-[#00FFA3] text-bold text-xl hover:bg-[#1bcf8d] bg-[#00FFA3] text-black mt-4  font-bold ">
+            <button className="border-2 max-w-[200px] border-[#00FFA3] rounded-xl px-5 min-h-[60px] lg:mr-auto relative  hover:border-[#00FFA3] text-bold text-xl hover:bg-[#1bcf8d] bg-[#00FFA3] text-black mt-4  font-bold ">
 
             Contact Us
           </button>
@@ -82,8 +83,10 @@ const AccordienSection = () => {
             ))}
           </div>
         </div>
+        </div>
+       
       </div>
-    </div>
+
   );
 };
 

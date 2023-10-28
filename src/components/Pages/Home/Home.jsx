@@ -48,7 +48,7 @@ export default function Home() {
 {/* signIn button */}
 
    <div className="flex lg:flex-row flex-col items-center  lg:justify-start justify-center lg:gap-8">
-   <button className="text-black lg:w-[300px] w-full font-bold text-[18px] bg-[#00FFA3] border-none mt-8">Sign in</button>
+   <button className="text-black lg:w-[300px] w-full font-bold text-[18px] bg-[#00FFA3] border-none py-3 rounded-xl mt-8">Sign in</button>
    <p className="text-white lg:mt-7 mt-5">Don't have an account? <span className="text-[#00FFA3]">Sign Up</span></p>
    </div>
     </div>

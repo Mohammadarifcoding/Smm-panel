@@ -5,14 +5,14 @@ import { BsTelegram , BsYoutube } from "react-icons/bs";
 export default function Footer() {
   return (
     <div className="bg-gradient-to-r pt-32 from-[#173f32]   to-[#161429] lg:px-[5%] md:px-[5%] px-[2%]">
-      <div className="flex justify-center xl:flex-row lg:flex-col md:flex-col gap-4">
+      <div className="flex justify-center items-center xl:flex-row lg:flex-col md:flex-col gap-4">
         <img
           className="max-w-[400px] w-full mx-auto"
           src="https://cdn.mypanel.link/770smr/814o56n7iuodtnrg.png"
           alt=""
         />
         <img
-          className="md:block hidden"
+          className="md:block hidden max-h-[70px]"
           src="https://cdn.mypanel.link/770smr/3r5taeanaspoljeh.webp"
           alt=""
         />
@@ -39,7 +39,7 @@ export default function Footer() {
         </div>
       </div>
       <hr className="bg-white my-10" />
-      <p className="pb-10 text-center text-lg">© copyright 2023 Smm Panel | All Rights Reserved | Terms & Conditions</p>
+      <p className="pb-10 text-center text-lg text-white">© copyright 2023 Smm Panel | All Rights Reserved | Terms & Conditions</p>
     </div>
   );
 }

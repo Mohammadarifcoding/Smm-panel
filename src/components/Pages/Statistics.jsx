@@ -15,7 +15,7 @@ export default function Statistics() {
             results.
           </p>
 
-          <button className="text-black text-[20px] font-bold bg-[#00FFA3] mt-12">
+          <button className="text-black text-[20px] font-bold px-6 py-4 rounded-xl bg-[#00FFA3] mt-12">
             Get Started Now
           </button>
         </div>

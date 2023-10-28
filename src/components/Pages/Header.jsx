@@ -11,12 +11,12 @@ export default function Header() {
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="white" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
       </label>
-      <ul tabIndex={0} className="menu menu-sm  dropdown-content mt-3 z-[1] p-2 shadow bg-blue-950  rounded-box min-w-[130px]">
-      <li className='text-white text-xl font-medium '><Link to='/'>SignIn</Link> </li>
+      <ul tabIndex={0} className="menu menu-sm bg-black dropdown-content mt-3 z-[1] p-2 shadow bg-blue-950  rounded-box min-w-[130px]">
+<Link className='text-white text-xl font-medium hover:text-[#00FFA3] m-3 ' to='/'>SignIn</Link> 
         
-      <li className='text-white text-xl font-medium '><Link to='/'>Terms</Link> </li>
-      <li className='text-white text-xl font-medium '><Link to='/howItWorks'>How It Works</Link> </li>
-      <li className='text-white text-xl font-medium '><Link to='/blog'>Blog</Link> </li>
+<Link className='text-white text-xl font-medium hover:text-[#00FFA3] m-3 ' to='/terms'>Terms</Link> 
+<Link className='text-white text-xl font-medium hover:text-[#00FFA3] m-3 ' to='/howItWorks'>How It Works</Link> 
+<Link className='text-white text-xl font-medium hover:text-[#00FFA3] m-3 ' to='/blog'>Blog</Link> 
         
       </ul>
     </div>
@@ -25,15 +25,15 @@ export default function Header() {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-    <li className='text-white text-xl font-medium '><Link to='/'>SignIn</Link> </li>
+    <Link className='text-white text-xl font-medium hover:text-[#00FFA3] m-3 ' to='/'>SignIn</Link> 
         
-      <li className='text-white text-xl font-medium '><Link to='/'>Terms</Link> </li>
-      <li className='text-white text-xl font-medium '><Link to='/howItWorks'>How It Works</Link> </li>
-      <li className='text-white text-xl font-medium '><Link to='/blog'>Blog</Link> </li>
+<Link className='text-white text-xl font-medium hover:text-[#00FFA3] m-3 ' to='/'>Terms</Link> 
+<Link className='text-white text-xl font-medium hover:text-[#00FFA3] m-3 ' to='/howItWorks'>How It Works</Link> 
+<Link className='text-white text-xl font-medium hover:text-[#00FFA3] m-3 ' to='/blog'>Blog</Link> 
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn bg-[#00FFA3] border-none text-black text-xl font-semibold ">Signup</a>
+    <a className="btn bg-[#00FFA3] border-none text-black hover:bg-[#0e573c] text-xl font-semibold ">Signup</a>
   </div>
 </div>
 

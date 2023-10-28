@@ -20,10 +20,10 @@ const RegisterBanner = () => {
             </div>
             <div className="lg:pr-10">
               <div className="flex gap-4  lg:flex-col  md:flex-row sm:flex-row flex-col pb-10">
-                <button className=" w-[170px]  px-5 h-[60px]   text-bold text-xl  bg-[#21213D] text-white mt-2  font-bold ">
+                <button className=" w-[170px]  px-5 h-[60px] rounded-xl   text-bold text-xl  bg-[#21213D] text-white mt-2  font-bold ">
                   Get Started
                 </button>
-                <button className="border-2 w-[170px] border-[#00FFA3] px-5 h-[60px]  hover:border-[#00FFA3] text-bold text-xl hover:bg-[#1bcf8d] bg-[#00FFA3] text-black mt-2  font-bold ">
+                <button className="border-2 w-[170px] rounded-xl border-[#00FFA3] px-5 h-[60px]  hover:border-[#00FFA3] text-bold text-xl hover:bg-[#1bcf8d] bg-[#00FFA3] text-black mt-2  font-bold ">
                   See pricing
                 </button>
               </div>
