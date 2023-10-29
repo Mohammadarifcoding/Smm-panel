@@ -27,7 +27,7 @@ export default function Header() {
     <ul className="menu menu-horizontal px-1">
     <Link className='text-white text-xl font-medium hover:text-[#00FFA3] m-3 ' to='/'>SignIn</Link> 
         
-<Link className='text-white text-xl font-medium hover:text-[#00FFA3] m-3 ' to='/'>Terms</Link> 
+<Link className='text-white text-xl font-medium hover:text-[#00FFA3] m-3 ' to='/terms'>Terms</Link> 
 <Link className='text-white text-xl font-medium hover:text-[#00FFA3] m-3 ' to='/howItWorks'>How It Works</Link> 
 <Link className='text-white text-xl font-medium hover:text-[#00FFA3] m-3 ' to='/blog'>Blog</Link> 
     </ul>
