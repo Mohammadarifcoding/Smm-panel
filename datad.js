@@ -1,1 +1,1 @@
-console.log('hello')
+let a = 'hello'
